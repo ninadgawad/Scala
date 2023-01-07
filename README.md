@@ -4,7 +4,7 @@ Scala is a general-purpose programming language that runs on the Java Virtual Ma
 - Install the Scala runtime on your machine. You can download the latest version of Scala from the official website (https://www.scala-lang.org/) or use a package manager like sdkman to install it.
 - Set up your development environment. You can use any text editor or integrated development environment (IDE) that supports Scala. Some popular choices include IntelliJ IDEA, Eclipse, and Visual Studio Code.
 - Write your first Scala program. A simple Scala program might look like this:
-```
+```scala
 object HelloWorld {
   def main(args: Array[String]): Unit = {
     println("Hello, world!")
