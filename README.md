@@ -41,7 +41,7 @@ z = x +y
 ## Scala Collection
 ![Scala Collection](https://github.com/ninadgawad/Scala/blob/main/ScalaCollectionv1.png)
 
-## List sample operations
+## List 
 ![List](https://github.com/ninadgawad/Scala/blob/main/ScalaCollectin_List_v2.png)
 
 ## RDD's - Resilent Distributed Datasets
