@@ -22,7 +22,8 @@ object HelloWorld {
 - **Function**: A relation between a set of inputs and set of permissible outputs with the property that each input is related to exactly one output
 - **Pure functions** evaluate to the same results for the same set of given inputs; these do not have any side effects and are reliable
 - **Impure function** does not gurantee that same result for the set of given inputs, can have side effect in the system hence not reliable
-- **Referential Transparency**: An expression or function is called referentially transparent is it can be replaced with its value, without changing the algorith, yielding the same output as when they were called without their value replacement.
+- **Referential Transparency**: An expression or function is called referentially transparent is it can be replaced with its value, without changing the algorith, yielding the same output as when they were called without their value replacement
+- **Higher Order Functions** takes function as inputs
 
 
 ## RDD's - Resilent Distributed Datasets
