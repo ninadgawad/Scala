@@ -17,6 +17,7 @@ object HelloWorld {
 ## Key Concepts:
 
 - **Compile** and run your program. You can use the Scala compiler (scalac) to compile your program, or you can use an IDE that has built-in support for Scala. To run your program, you can use the Scala interpreter (scala) or create a standalone JAR file and run it with the Java runtime.
+- **Immutability** is not changing the state of variable once value is assgined
 - **Expression** yields a vaule 
 - **Statement** does some action 
 - **Function**: A relation between a set of inputs and set of permissible outputs with the property that each input is related to exactly one output
