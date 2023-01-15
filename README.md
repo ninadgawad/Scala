@@ -39,7 +39,10 @@ z = x +y
 ```
 
 ## Scala Collection
-![Data Engineering](https://github.com/ninadgawad/Scala/blob/main/ScalaCollectionv1.png)
+![Scala Collection](https://github.com/ninadgawad/Scala/blob/main/ScalaCollectionv1.png)
+
+## List sample operations
+![List](https://github.com/ninadgawad/Scala/blob/main/ScalaCollectin_List_v1.png)
 
 ## RDD's - Resilent Distributed Datasets
 - Help parallel process
