@@ -26,6 +26,12 @@ object HelloWorld {
 - **Referential Transparency**: An expression or function is called referentially transparent is it can be replaced with its value, without changing the algorith, yielding the same output as when they were called without their value replacement
 - **Higher Order Functions** takes function as inputs
 
+## Scala REPL:
+```scala
+x = 10
+y = 20
+z = x +y
+```
 
 ## RDD's - Resilent Distributed Datasets
 - Help parallel process
