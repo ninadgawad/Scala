@@ -12,10 +12,12 @@ object HelloWorld {
 }
 
 ```
-- Compile and run your program. You can use the Scala compiler (scalac) to compile your program, or you can use an IDE that has built-in support for Scala. To run your program, you can use the Scala interpreter (scala) or create a standalone JAR file and run it with the Java runtime.
-- Expression yields a vaule 
-- Statement does some action 
-- Function: A relation between a set of inputs and set of permissible outputs with the property that each input is related to exactly one output
+- **Compile** and run your program. You can use the Scala compiler (scalac) to compile your program, or you can use an IDE that has built-in support for Scala. To run your program, you can use the Scala interpreter (scala) or create a standalone JAR file and run it with the Java runtime.
+- **Expression** yields a vaule 
+- **Statement** does some action 
+- **Function**: A relation between a set of inputs and set of permissible outputs with the property that each input is related to exactly one output
+- **Pure functions** evaluate to the same results for the same set of given inputs; these do not have any side effects and are reliable
+- **Impure function** does not gurantee that same result for the set of given inputs, can have side effect in the system hence not reliable
 
 
 ## RDD's - Resilent Distributed Datasets
