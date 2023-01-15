@@ -38,6 +38,9 @@ y = 20
 z = x +y
 ```
 
+## Scala Collection
+![Data Engineering](https://github.com/ninadgawad/Scala/blob/main/ScalaCollectionv1.png)
+
 ## RDD's - Resilent Distributed Datasets
 - Help parallel process
 - Performance 
