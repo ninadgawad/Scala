@@ -107,6 +107,10 @@ object SimpleApp {
 }
 ```
 
+In this example, we create a SparkConf object to configure the application and a SparkContext to access the Spark cluster. The parallelize method is used to create a distributed data set from a local data structure (in this case, a sequence). The map transformation is applied to the data set to perform a computation (in this case, squaring each value), and the sum action is used to compute the sum of the result. The result is then printed to the console.
+
+This simple example demonstrates how easy it is to use Scala and Spark together to process big data.
+
 
 ## Reference Links:
 https://www.scala-lang.org/download/scala3.html
