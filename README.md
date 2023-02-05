@@ -86,6 +86,28 @@ val cubes = rdd.map(x=>x*x*x)
 ### DataSets
 
 
+## Scala with Saprk example:
+Apache Spark is a popular big data processing framework that is well-suited for use with Scala. Spark provides a high-level API for distributed data processing that is easy to use and efficient. 
+
+Here's a simple example in Scala that demonstrates how to use Spark to process data:
+```scala
+import org.apache.spark.SparkContext
+import org.apache.spark.SparkContext._
+import org.apache.spark.SparkConf
+
+object SimpleApp {
+  def main(args: Array[String]) {
+    val conf = new SparkConf().setAppName("Simple Application")
+    val sc = new SparkContext(conf)
+    val data = sc.parallelize(Seq(1, 2, 3, 4, 5))
+    val result = data.map(x => x * x).sum()
+    println(s"Result: $result")
+    sc.stop()
+  }
+}
+```
+
+
 ## Reference Links:
 https://www.scala-lang.org/download/scala3.html
 
