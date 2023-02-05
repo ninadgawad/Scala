@@ -31,6 +31,15 @@ object HelloWorld {
 - **Referential Transparency**: An expression or function is called referentially transparent is it can be replaced with its value, without changing the algorith, yielding the same output as when they were called without their value replacement
 - **Higher Order Functions** takes function as inputs
 
+## Scala Key features vs Java 
+- **Concise and expressive syntax:** Scala has a more concise syntax that enables developers to write complex functionality with fewer lines of code.
+- **Functional programming:** Scala supports functional programming features such as immutability, higher-order functions, and lazy evaluation.
+- **Interoperability with Java:** Scala is fully interoperable with Java, allowing developers to use existing Java libraries in their Scala code.
+- **Type inference:** Scala has a powerful type inference system that reduces the verbosity of the code and enables developers to write more concise code.
+- **Case classes and pattern matching:** Scala has built-in support for case classes and pattern matching, which makes it easier to write and reason about code that performs data manipulation.
+- **Actors-based concurrency:** Scala has a built-in actor model for concurrent programming, which provides an alternative to traditional Java thread-based concurrency.
+
+
 ## Scala REPL:
 ```scala
 x = 10
