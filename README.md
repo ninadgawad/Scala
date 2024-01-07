@@ -2,7 +2,9 @@
 Scala is a general-purpose programming language that runs on the Java Virtual Machine (JVM). It is a statically-typed language that combines the best features of object-oriented and functional programming. Here are a few basic steps to get started with Scala:
 
 ## Version:  [Download Link](https://www.scala-lang.org/download/all.html)
-- Scala 3.2.2 : Current release: 3.2.2 & Released on Jan 30, 2023
+- Scala 3.3.1 LTS (Released on Sep 9, 2023)
+- Scala 3.3.0 LTS
+- Scala 3.2.2 
 - Scala 3.2.1
 - Scala 3.2.0
 - Scala 3.1.3
@@ -12,8 +14,8 @@ Scala is a general-purpose programming language that runs on the Java Virtual Ma
 - Scala 3.0.2
 - Scala 3.0.1
 - Scala 3.0.0
-- Scala 2.13 : Current release: 2.13.10 & Released on Oct 13, 2022
-- Scala 2.12 : Current release: 2.12.17 & Released on Sept 16, 2022
+- Scala 2.13 : Current release: 2.13.12 & Released on Sep 11, 2023
+- Scala 2.12 : Current release: 2.12.17 & Released on Sep 16, 2022
 
 ## Setup
 - Install the Scala runtime on your machine. You can download the latest version of Scala from the official website (https://www.scala-lang.org/) or use a package manager like sdkman to install it.
