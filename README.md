@@ -30,6 +30,16 @@ object HelloWorld {
 
 ```
 
+### Scala command-line tools:
+| Command | Description  |
+|---|---|
+| scalac  | Scala compiler  |
+| scala  |  Scala REPL and script runner |
+| scala-cli	  | interactive toolkit for Scala   |
+| sbt, sbtn	| Scala Build Tool |
+| amm | Ammonite is an enhanced REPL |
+| scalafmt | Scala code formatter | 
+
 ## Key Concepts:
 
 - **Compile** and run your program. You can use the Scala compiler (scalac) to compile your program, or you can use an IDE that has built-in support for Scala. To run your program, you can use the Scala interpreter (scala) or create a standalone JAR file and run it with the Java runtime.
