@@ -1,4 +1,4 @@
-package com.rockthejvm
+package com.ninad
 import com.rockthejvm.ConfigReader.readApiKey
 
 import java.net.{HttpURLConnection, URL}
