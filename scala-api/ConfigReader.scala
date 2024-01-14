@@ -5,11 +5,21 @@ import org.yaml.snakeyaml.constructor.Constructor
 import java.io.{File, FileInputStream}
 
 object ConfigReader {
-  def readApiKey(): String = {
-    val configFile = "config.yml"
-    val inputStream =  new FileInputStream(new File(configFile))
+
+  private val configFile =  "C:\\weather\\config.yml"
+
+  private def readYaml(configFileLocation: String) : OpenWeatherMap = {
+    val inputStream =  new FileInputStream(new File(configFileLocation))
     val yaml = new Yaml(new Constructor(classOf[OpenWeatherMap]))
-    val e = yaml.load(inputStream).asInstanceOf[OpenWeatherMap]
-    e.apiKey
+    yaml.load(inputStream).asInstanceOf[OpenWeatherMap]
   }
+
+  def readApiKey(): String = {
+    readYaml(configFile).apiKey
+  }
+
+  def readApiUrl(): String = {
+    readYaml(configFile).apiUrl
+  }
+
 }
