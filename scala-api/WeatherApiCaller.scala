@@ -1,5 +1,5 @@
 package com.ninad
-import com.ninad.ConfigReader.readApiKey
+import com.ninad.ConfigReader.{readApiKey, readApiUrl}
 
 import java.net.{HttpURLConnection, URL}
 import java.io.BufferedReader
@@ -11,8 +11,9 @@ object WeatherApiCaller {
 
   private def getWeatherInfo(city: String): String={
     val apiKey = readApiKey()
-
-    val url = new URL(s"http://api.openweathermap.org/data/2.5/weather?q=$city&appid=$apiKey&units=imperial")
+    val apiUrl = readApiUrl()
+    val urlString = s"$apiUrl/data/2.5/weather?q=$city&appid=$apiKey&units=imperial"
+    val url = new URL(urlString)
     val connection = url.openConnection().asInstanceOf[HttpURLConnection]
     connection.setRequestMethod("GET")
 
