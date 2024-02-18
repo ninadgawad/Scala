@@ -1,0 +1,32 @@
+# Scala Spring Boot application
+
+# Server settings
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+# Logging settings
+logging:
+  level:
+    root: INFO
+    org.springframework: INFO
+    com.example: DEBUG
+
+# Database settings for H2 in-memory database
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: 
+    driver-class-name: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+
+# Custom application properties
+custom:
+  envrionment: local
+  cache_time: 5
