@@ -26,6 +26,10 @@ object HelloWorld {
 
 ```
 
+## Scala Playground
+Playground: [Link](https://scastie.scala-lang.org/)
+
+
 ### Scala command-line tools:
 | Command | Description  |
 |---|---|
