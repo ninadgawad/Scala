@@ -11,7 +11,7 @@
 - Scala 3.1.3
 - Scala 3.0.2
 - Scala 2.13.X : Current release: 2.13.12 & Released on Sep 11, 2023
-- Scala 2.12.X : Current release: 2.12.18 & Released on Jun 09, 2022
+- Scala 2.12.X : Current release: 2.12.20 & Released on Sep 04, 2024
 
 ## Setup
 - Install the Scala runtime on your machine. You can download the latest version of Scala from the official [website](https://www.scala-lang.org/) or use a package manager like sdkman to install it.
