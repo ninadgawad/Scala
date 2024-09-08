@@ -2,7 +2,8 @@
 [Scala](https://www.scala-lang.org/) is a general-purpose programming language that runs on the Java Virtual Machine (JVM). It is a statically-typed language that combines the best features of object-oriented and functional programming. Here are a few basic steps to get started with Scala:
 
 ## Version:  [Download Link](https://www.scala-lang.org/download/all.html)
-- Scala 3.4.5
+- Scala 3.5.0
+- Scala 3.4.3
 - Scala 3.3.3 LTS
 - Scala 3.3.1 LTS
 - Scala 3.3.0 LTS
