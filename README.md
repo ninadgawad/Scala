@@ -13,7 +13,7 @@
 - Scala 3.2.2 
 - Scala 3.1.3
 - Scala 3.0.2
-- Scala 2.13.X : Current release: 2.13.14 & Released on May 01, 2024
+- Scala 2.13.X : Current release: 2.13.16 & Released on January 15, 2025
 - Scala 2.12.X : Current release: 2.12.20 & Released on Sep 04, 2024
 
 ## Setup
